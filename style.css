@@ -1,0 +1,163 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #081b29;
+    background-image: url("hotel4.jpeg") no-repeat;
+    
+}
+.main-header h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 14px;
+    cursor: pointer;
+
+
+}
+.main-header{
+    background: url("2.jpg") no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    height: 100vh;
+}
+.main-header h2{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    color: white;
+    cursor: pointer;
+}
+.main-header h2 span{
+    padding: 10px;
+    color: white;
+}
+.header{
+    font-style: italic;
+    display: flex;
+    justify-content: space-around;
+}
+.navigation ul{
+    display: flex;
+}
+.navigation ul li{
+    list-style: none;
+    margin-left: 20px;
+    padding: 10px;
+
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.navigation ul li a:hover{
+    padding: 10px;
+}
+h1{
+    color: #081b29;
+    margin: 0;
+    padding: 0;
+}
+
+
+h2{
+    text-align: center;
+}
+ h4{
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    width: 200px;
+ }
+ .gallery .img{
+    display: grid;
+    padding: 100px 0;
+    justify-content: center;
+ }
+ .services{
+    color: coral;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .touch{
+    color: chocolate;
+ }
+ .service-box{
+    color: burlywood;
+ }
+ .gallery{
+    color: darkgoldenrod;
+ }
+ .touch{
+    background-color: #081b29;
+ }
+  .footer{
+    text-align: right;
+    color: white;
+    font-size: small;
+    font-style: italic;
+ }
+ .form{
+    width: 250px;
+    height: 380px;
+    position: absolute;
+    top: -20px;
+    left: 450px;
+    border-radius: 10px;
+    padding: 25px;
+ }
+ .form h2{
+    width: 220px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+ }
+ .form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 15px;
+    margin-top: 30px;
+    font-family: sans-serif;
+ }
+ .form input:focus{
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .btn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+ }
+ .btn:hover{
+    background: white;
+    color: #ff7200;
+ }
+ .btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+ }
+ .form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+ }
+ .link a{
+    text-decoration: none;
+    color: #ff7200;
+ }
+ 
